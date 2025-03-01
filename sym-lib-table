@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name precision-clock-rescue)(type Legacy)(uri "${KIPRJMOD}/precision clock-rescue.lib")(options "")(descr ""))
-  (lib (name barrel_jack)(type Legacy)(uri ${KIPRJMOD}/barrel_jack.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "precision-clock-rescue")(type "Legacy")(uri "${KIPRJMOD}/precision clock-rescue.lib")(options "")(descr ""))
+  (lib (name "barrel_jack")(type "Legacy")(uri "${KIPRJMOD}/barrel_jack.lib")(options "")(descr ""))
+  (lib (name "precision clock-rescue")(type "KiCad")(uri "${KIPRJMOD}/precision clock-rescue.kicad_sym")(options "")(descr ""))
 )
