@@ -5,6 +5,151 @@
 	(uuid "a352d3ae-caca-4fe6-94e2-4912021cb238")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1216,128 +1361,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "precision-clock-rescue:Jumper"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper"
-				(at 0 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_0_1"
-				(circle
-					(center -2.54 0)
-					(radius 0.889)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5146 1.27)
-					(mid 0.0078 2.5097)
-					(end -2.4892 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.889)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 4.191)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 4.191)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3237,6 +3260,12 @@
 		(uuid "37151e54-6ebe-4b57-9c94-f553ed55f9dc")
 	)
 	(junction
+		(at 22.86 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f984d6a-9ea7-4cbc-b0df-178e25adcc52")
+	)
+	(junction
 		(at 151.13 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3367,10 +3396,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd9d2c5b-68e9-4abf-84d5-2af14ed63676")
-	)
-	(no_connect
-		(at 45.72 224.79)
-		(uuid "0957b5a7-5668-4754-8f06-5f235e93288a")
 	)
 	(no_connect
 		(at 63.5 128.27)
@@ -3563,10 +3588,6 @@
 	(no_connect
 		(at 170.18 69.85)
 		(uuid "cbc33427-8c8b-4b07-8d6b-149c388da8f7")
-	)
-	(no_connect
-		(at 45.72 219.71)
-		(uuid "cc0d9bd7-67f1-4750-b406-aaf2caf96885")
 	)
 	(no_connect
 		(at 31.75 153.67)
@@ -4094,6 +4115,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 250.19) (xy 147.32 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29458717-eec5-4dee-8c1e-8b5b56a1092f")
+	)
+	(wire
+		(pts
 			(xy 114.3 219.71) (xy 130.81 219.71)
 		)
 		(stroke
@@ -4291,6 +4322,16 @@
 			(type default)
 		)
 		(uuid "369b3449-3dfb-4b4b-8788-4a99218da3ca")
+	)
+	(wire
+		(pts
+			(xy 26.67 224.79) (xy 22.86 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38732ed6-eff0-41ec-b865-bf2d357161ee")
 	)
 	(wire
 		(pts
@@ -4864,6 +4905,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 219.71) (xy 45.72 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67afec27-728e-449c-a1e2-68f39b6b687a")
+	)
+	(wire
+		(pts
 			(xy 201.93 54.61) (xy 194.31 54.61)
 		)
 		(stroke
@@ -5171,6 +5222,16 @@
 			(type default)
 		)
 		(uuid "85b1f76a-a42d-420c-921a-3a82ed08c0be")
+	)
+	(wire
+		(pts
+			(xy 22.86 219.71) (xy 22.86 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8623cb90-d95e-4ec0-b072-9911982d222c")
 	)
 	(wire
 		(pts
@@ -5674,16 +5735,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 250.19) (xy 147.32 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab56a929-4dbb-4fdb-9462-94ca6ac00d92")
-	)
-	(wire
-		(pts
 			(xy 281.94 96.52) (xy 289.56 96.52)
 		)
 		(stroke
@@ -5711,6 +5762,16 @@
 			(type default)
 		)
 		(uuid "ad02edf9-a8cb-437f-9a25-3c66b502d697")
+	)
+	(wire
+		(pts
+			(xy 26.67 219.71) (xy 22.86 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad281b2e-c36e-4ef4-b9f9-f818fc2b67c8")
 	)
 	(wire
 		(pts
@@ -5771,6 +5832,16 @@
 			(type default)
 		)
 		(uuid "b49739ed-5c05-41a6-8c68-bddc345e6e57")
+	)
+	(wire
+		(pts
+			(xy 36.83 224.79) (xy 45.72 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c79206-c910-4af3-898d-97a2633581db")
 	)
 	(wire
 		(pts
@@ -7318,6 +7389,17 @@
 		)
 		(uuid "741bafd2-4c6b-4c1b-8ce1-b86510a922f8")
 	)
+	(label "PERM_DST*"
+		(at 35.56 224.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "776ccb6e-0873-4647-82be-ec5069eb31c0")
+	)
 	(label "dateD"
 		(at 24.13 118.11 0)
 		(fields_autoplaced yes)
@@ -8131,6 +8213,17 @@
 			(justify right bottom)
 		)
 		(uuid "e5acb59f-6f35-4620-a03e-b4bdbc2cd829")
+	)
+	(label "UTC*"
+		(at 35.56 219.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed2debe0-f570-490e-a0cf-08945779b1a9")
 	)
 	(label "dateE"
 		(at 55.88 91.44 0)
@@ -10861,7 +10954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1uF"
 			(at 85.09 201.295 0)
 			(effects
 				(font
@@ -11037,73 +11130,6 @@
 			(project ""
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
 					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision-clock-rescue:Jumper")
-		(at 137.16 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b6182f3")
-		(property "Reference" "JP1"
-			(at 137.16 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper"
-			(at 137.16 252.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 137.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d88953c1-490f-4280-938f-9e05c08d4d55")
-		)
-		(pin "2"
-			(uuid "6ad32ce9-bc9a-4428-83d7-3d17919fd36f")
-		)
-		(instances
-			(project ""
-				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -12211,7 +12237,7 @@
 				)
 			)
 		)
-		(property "Value" "JACK"
+		(property "Value" "5V"
 			(at 330.327 16.9164 0)
 			(effects
 				(font
@@ -12219,7 +12245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "precision clock:BarrelJack_2"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 330.2 23.876 0)
 			(effects
 				(font
@@ -12409,7 +12435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1uF"
 			(at 151.765 85.09 0)
 			(effects
 				(font
@@ -12543,7 +12569,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1uF"
 			(at 300.355 82.55 0)
 			(effects
 				(font
@@ -12660,6 +12686,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 31.75 224.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "022774a7-c72d-4434-9104-f165833ece6b")
+		(property "Reference" "JP2"
+			(at 31.75 226.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 31.75 229.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 31.75 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 31.75 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61bb369e-6432-4873-b4b2-ecbee60ec3b1")
+		)
+		(pin "1"
+			(uuid "d762389c-967f-4054-87af-0c492071b164")
+		)
+		(instances
+			(project "precision clock"
+				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 205.74 227.33 0)
 		(unit 1)
@@ -12726,6 +12820,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 134.62 250.19 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "158dc75a-60c8-449c-b7bd-c9c412a48727")
+		(property "Reference" "JP1"
+			(at 134.62 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 134.62 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 134.62 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 134.62 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99b2773c-a994-4479-b479-49ac3eab7145")
+		)
+		(pin "1"
+			(uuid "eba6afb1-8cd0-4944-a42e-9b9b0396c055")
+		)
+		(instances
+			(project ""
+				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 80.01 200.66 0)
 		(unit 1)
@@ -12786,6 +12948,74 @@
 			(project "precision clock"
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 31.75 219.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e0ae19b-305e-496f-be8d-fd26d5113a67")
+		(property "Reference" "JP3"
+			(at 31.75 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 31.75 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 31.75 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 31.75 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "118e7d15-4a1b-4314-aac4-9f8dda44d965")
+		)
+		(pin "1"
+			(uuid "a414cd3d-9055-4eef-905b-8606f0eae392")
+		)
+		(instances
+			(project "precision clock"
+				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -12983,6 +13213,71 @@
 			(project ""
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "precision-clock-rescue:GND")
+		(at 22.86 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba904f8a-aabb-441a-a10c-8636a8658f4b")
+		(property "Reference" "#PWR03"
+			(at 22.86 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32be1a44-bcd6-4181-97f4-02d651e9da87")
+		)
+		(instances
+			(project "precision clock"
+				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
