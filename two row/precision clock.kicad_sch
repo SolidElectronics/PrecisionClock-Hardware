@@ -4007,6 +4007,12 @@
 		)
 	)
 	(junction
+		(at 274.32 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1596d005-1106-4558-ae2e-5186aa31c1d6")
+	)
+	(junction
 		(at 121.92 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4079,7 +4085,7 @@
 		(uuid "81fefdbc-1756-4567-850e-ffd308695311")
 	)
 	(junction
-		(at 248.92 133.35)
+		(at 248.92 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8246acd2-9023-4301-a7d9-02fc4dedc8f1")
@@ -4103,22 +4109,28 @@
 		(uuid "94b45e63-478d-4a7a-8279-d14986140670")
 	)
 	(junction
-		(at 274.32 125.73)
+		(at 233.68 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "977e1f04-8035-4672-9853-11ca3f36cb66")
+	)
+	(junction
+		(at 274.32 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be0ce2e7-a59a-482e-a9a4-90a946acec9e")
 	)
 	(junction
-		(at 248.92 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0b51e2c-3c12-4fe8-a1b1-c9baf210bd2a")
-	)
-	(junction
-		(at 274.32 133.35)
+		(at 274.32 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceaee167-4c34-4391-9754-d8cf097265c8")
+	)
+	(junction
+		(at 250.19 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5121dba-9aef-4981-9f47-d1608406afe3")
 	)
 	(junction
 		(at 248.92 113.03)
@@ -4167,6 +4179,10 @@
 		(uuid "125ec38b-7d62-4fd0-86ca-8c8f8247b743")
 	)
 	(no_connect
+		(at 232.41 185.42)
+		(uuid "1b93b7a1-0fd2-4ef8-8818-400cc9263ae2")
+	)
+	(no_connect
 		(at 46.99 99.06)
 		(uuid "1e1d4e21-3f46-4540-b2df-1541d973ca52")
 	)
@@ -4185,6 +4201,10 @@
 	(no_connect
 		(at 78.74 69.85)
 		(uuid "321f13cf-ea2e-4cd7-aee9-5dd962194dcf")
+	)
+	(no_connect
+		(at 232.41 182.88)
+		(uuid "3754e19b-56e5-43ea-953f-edb6c0325a7a")
 	)
 	(no_connect
 		(at 63.5 99.06)
@@ -4243,6 +4263,10 @@
 		(uuid "6e3d4a2a-5082-48bb-ac28-678eef6490b9")
 	)
 	(no_connect
+		(at 232.41 195.58)
+		(uuid "73175c5c-e5b4-4bb3-820d-1e1d90bd81b6")
+	)
+	(no_connect
 		(at 78.74 40.64)
 		(uuid "7c563cd1-43a8-457a-9ba1-c77ddebc1686")
 	)
@@ -4255,7 +4279,7 @@
 		(uuid "849b33a7-a7d3-4a2c-b07e-e52378a72e46")
 	)
 	(no_connect
-		(at 232.41 190.5)
+		(at 234.95 190.5)
 		(uuid "88b57706-32b4-4f71-b234-7c6a8941f688")
 	)
 	(no_connect
@@ -4267,7 +4291,7 @@
 		(uuid "99b2485f-b0cf-4d3a-bfe7-3001be920fcf")
 	)
 	(no_connect
-		(at 232.41 195.58)
+		(at 234.95 195.58)
 		(uuid "9ba3fb21-ba53-4a8d-ae8a-6c19caae088f")
 	)
 	(no_connect
@@ -4275,7 +4299,7 @@
 		(uuid "9c1b73ac-4a7a-4a1d-96d9-c38d3e991f9d")
 	)
 	(no_connect
-		(at 232.41 185.42)
+		(at 234.95 185.42)
 		(uuid "9c703ca0-dcbb-42d8-8ec7-32a2cdbe27a0")
 	)
 	(no_connect
@@ -4367,7 +4391,11 @@
 		(uuid "dc1ed7c2-2d8a-4e95-a267-2795c3137f08")
 	)
 	(no_connect
-		(at 232.41 182.88)
+		(at 232.41 190.5)
+		(uuid "dcd2c67f-1c15-4b62-9574-39d46a79da36")
+	)
+	(no_connect
+		(at 234.95 182.88)
 		(uuid "e17cb7f7-a820-42f1-bfe6-6573daf9c967")
 	)
 	(no_connect
@@ -4406,7 +4434,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 119.38) (xy 276.86 119.38)
+			(xy 274.32 121.92) (xy 287.02 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4416,17 +4444,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 133.35) (xy 274.32 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01742790-7ca5-406e-a047-5348704b3d63")
-	)
-	(wire
-		(pts
-			(xy 274.32 125.73) (xy 274.32 133.35)
+			(xy 274.32 124.46) (xy 274.32 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4486,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 139.7) (xy 274.32 133.35)
+			(xy 274.32 138.43) (xy 274.32 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4513,16 +4531,6 @@
 			(type default)
 		)
 		(uuid "09c0ee97-4506-4eb3-93b7-e0e3c9a35364")
-	)
-	(wire
-		(pts
-			(xy 271.78 105.41) (xy 274.32 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ad89938-ebf3-4c6d-9f35-e45113e24532")
 	)
 	(wire
 		(pts
@@ -4653,6 +4661,16 @@
 			(type default)
 		)
 		(uuid "170637a2-ccea-4f33-82b2-5df991140427")
+	)
+	(wire
+		(pts
+			(xy 274.32 121.92) (xy 274.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1762e18a-1d44-44dd-82c0-be5b07478501")
 	)
 	(wire
 		(pts
@@ -4806,16 +4824,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 125.73) (xy 274.32 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2213b93b-a36a-4d53-a18d-0aac70152616")
-	)
-	(wire
-		(pts
 			(xy 140.97 167.64) (xy 140.97 172.72)
 		)
 		(stroke
@@ -4826,7 +4834,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 125.73) (xy 248.92 125.73)
+			(xy 254 124.46) (xy 248.92 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4926,7 +4934,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 113.03) (xy 264.16 113.03)
+			(xy 261.62 113.03) (xy 274.32 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5516,7 +5524,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 68.58) (xy 222.25 123.19)
+			(xy 222.25 68.58) (xy 222.25 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5646,7 +5654,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 139.7) (xy 248.92 139.7)
+			(xy 254 138.43) (xy 248.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5683,6 +5691,26 @@
 			(type default)
 		)
 		(uuid "6d61a8be-1c74-434f-b56b-8ca928d9666e")
+	)
+	(wire
+		(pts
+			(xy 274.32 121.92) (xy 274.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9c80eb-1b1e-4535-afd9-64139d3e0c24")
+	)
+	(wire
+		(pts
+			(xy 234.95 177.8) (xy 233.68 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c152ed-5bb3-4819-aa53-d239e28e51ca")
 	)
 	(wire
 		(pts
@@ -5926,7 +5954,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 125.73) (xy 264.16 125.73)
+			(xy 261.62 124.46) (xy 274.32 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6136,7 +6164,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 139.7) (xy 274.32 139.7)
+			(xy 261.62 138.43) (xy 274.32 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6156,17 +6184,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 113.03) (xy 274.32 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c8cbcc0-e7be-4d71-8c1b-e3d01a6d7791")
-	)
-	(wire
-		(pts
-			(xy 261.62 133.35) (xy 264.16 133.35)
+			(xy 261.62 132.08) (xy 274.32 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6196,23 +6214,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 99.06) (xy 245.11 99.06)
+			(xy 236.22 113.03) (xy 248.92 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9eab7f51-d69b-4e55-8613-e6919a02ccb1")
-	)
-	(wire
-		(pts
-			(xy 245.11 123.19) (xy 245.11 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eabe595-3b3b-43b6-bf87-71e6495c5532")
 	)
 	(wire
 		(pts
@@ -6276,7 +6284,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 139.7) (xy 248.92 133.35)
+			(xy 248.92 138.43) (xy 248.92 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6386,7 +6394,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 123.19) (xy 245.11 123.19)
+			(xy 222.25 132.08) (xy 248.92 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6406,13 +6414,23 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 86.36) (xy 236.22 99.06)
+			(xy 236.22 86.36) (xy 236.22 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b18e9382-7b84-4ac6-a01b-70c9c8800fe4")
+	)
+	(wire
+		(pts
+			(xy 257.81 215.9) (xy 250.19 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b281fb47-0c58-41d9-96c9-265ebec6e5da")
 	)
 	(wire
 		(pts
@@ -6423,16 +6441,6 @@
 			(type default)
 		)
 		(uuid "b49739ed-5c05-41a6-8c68-bddc345e6e57")
-	)
-	(wire
-		(pts
-			(xy 274.32 119.38) (xy 274.32 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6654017-2ab7-4da0-bb09-4cdda12139b1")
 	)
 	(wire
 		(pts
@@ -6786,7 +6794,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 105.41) (xy 264.16 105.41)
+			(xy 261.62 105.41) (xy 274.32 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6813,16 +6821,6 @@
 			(type default)
 		)
 		(uuid "decc18ca-09bc-481b-9952-00d1a24b5685")
-	)
-	(wire
-		(pts
-			(xy 280.67 125.73) (xy 290.83 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dee923b3-d7b0-4b36-9748-3f4aca8ee222")
 	)
 	(wire
 		(pts
@@ -6916,7 +6914,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 125.73) (xy 248.92 133.35)
+			(xy 248.92 124.46) (xy 248.92 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6983,6 +6981,16 @@
 			(type default)
 		)
 		(uuid "f1658268-22d7-4526-802e-5a8a0240af00")
+	)
+	(wire
+		(pts
+			(xy 233.68 177.8) (xy 232.41 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26382b3-2a0c-4f9e-b98f-d7cc722d83a1")
 	)
 	(wire
 		(pts
@@ -7076,7 +7084,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 133.35) (xy 254 133.35)
+			(xy 248.92 132.08) (xy 254 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7143,17 +7151,6 @@
 			(type default)
 		)
 		(uuid "fc62a588-b333-46c1-825a-09341826963b")
-	)
-	(text "Select current source for colons.\nCan be driven by MAX7219 (2-3) or constant supply (1-2).\nIf using MAX7219:\n - Bridge 330R\n - Fit optional 150R to reduce brightness\nConstant current:\n - Fit 330R\n - Omit 150R"
-		(exclude_from_sim no)
-		(at 249.174 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7f19e4d2-820a-4ba2-8442-20873ed79a7b")
 	)
 	(text "Time brightness adjustment (relative to date)\nUse R_Time_brt_adj to control intensity\nIncrease: (1-2)\nDecrease: (2-3)\n\n"
 		(exclude_from_sim no)
@@ -8256,7 +8253,7 @@
 		(uuid "c4a14517-0d44-4bf2-8b2f-bf15e6d01b87")
 	)
 	(label "timeDP"
-		(at 290.83 125.73 180)
+		(at 285.75 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10490,7 +10487,7 @@
 	)
 	(symbol
 		(lib_id "precision-clock-rescue:LED")
-		(at 257.81 125.73 0)
+		(at 257.81 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10498,7 +10495,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b604938")
 		(property "Reference" "DColonMS1"
-			(at 257.81 123.19 0)
+			(at 257.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +10503,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 257.81 128.27 0)
+			(at 257.81 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,7 +10511,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 257.81 125.73 0)
+			(at 257.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10523,7 +10520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 125.73 0)
+			(at 257.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,7 +10529,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 125.73 0)
+			(at 257.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10557,7 +10554,7 @@
 	)
 	(symbol
 		(lib_id "precision-clock-rescue:LED")
-		(at 257.81 133.35 0)
+		(at 257.81 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10565,7 +10562,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b609827")
 		(property "Reference" "DColonMS2"
-			(at 257.81 130.556 0)
+			(at 257.81 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10573,7 +10570,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 257.81 135.89 0)
+			(at 257.81 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10581,7 +10578,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 257.81 133.35 0)
+			(at 257.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10590,7 +10587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 133.35 0)
+			(at 257.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,7 +10596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 133.35 0)
+			(at 257.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12215,73 +12212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "precision-clock-rescue:R")
-		(at 267.97 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00f8fde1-4f23-42ee-a0eb-f56510c07aba")
-		(property "Reference" "R5"
-			(at 267.97 131.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 267.97 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 267.97 135.128 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c129316e-0fce-4425-b584-a968e6991bda")
-		)
-		(pin "1"
-			(uuid "b524ac4b-c53d-4c3d-8c5b-462341c80773")
-		)
-		(instances
-			(project "precision clock"
-				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 31.75 224.79 0)
 		(mirror y)
@@ -12555,7 +12485,7 @@
 	)
 	(symbol
 		(lib_id "precision-clock-rescue:R")
-		(at 257.81 139.7 90)
+		(at 257.81 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12563,7 +12493,7 @@
 		(dnp no)
 		(uuid "19f40ad0-d95e-466b-a054-bc0331db12ee")
 		(property "Reference" "R6"
-			(at 257.81 137.668 90)
+			(at 257.81 136.398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12571,7 +12501,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 257.81 139.7 90)
+			(at 257.81 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,7 +12509,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 257.81 141.478 90)
+			(at 257.81 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 139.7 0)
+			(at 257.81 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12597,7 +12527,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 139.7 0)
+			(at 257.81 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12621,89 +12551,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 280.67 119.38 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36be82ae-0a51-4af4-a3e1-22f46f1c5532")
-		(property "Reference" "JP2"
-			(at 283.21 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HM/MS mode"
-			(at 283.21 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 280.67 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 280.67 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 3-pole, both open"
-			(at 280.67 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f69b871-cd39-4f7c-8cf7-0a936925d7fa")
-		)
-		(pin "2"
-			(uuid "db6fe5f6-a422-4cb6-86be-8ff0e663e816")
-		)
-		(pin "3"
-			(uuid "7f91529d-525a-4986-8172-c3d322893127")
-		)
-		(instances
-			(project "precision clock"
-				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision-clock-rescue:+5V")
-		(at 280.67 113.03 0)
+		(lib_id "precision-clock-rescue:GND")
+		(at 250.19 215.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "38d71f5e-d84b-499f-a249-826323870831")
-		(property "Reference" "#PWR09"
-			(at 280.67 116.84 0)
+		(uuid "2a354a44-f150-4bd0-a240-fe649657569c")
+		(property "Reference" "#PWR08"
+			(at 250.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12711,8 +12569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 280.67 109.474 0)
+		(property "Value" "GND"
+			(at 250.19 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12720,7 +12578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 113.03 0)
+			(at 250.19 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,7 +12587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 113.03 0)
+			(at 250.19 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12738,7 +12596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 113.03 0)
+			(at 250.19 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,79 +12605,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc8e0f9f-cf39-424a-ad5a-4467639def94")
+			(uuid "8805a953-4b3b-4829-a52c-308478aab829")
 		)
 		(instances
 			(project "precision clock"
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision-clock-rescue:R")
-		(at 267.97 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3aac2882-6bcf-4640-857d-b051a58455db")
-		(property "Reference" "R1"
-			(at 267.97 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 267.97 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 267.97 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6e41993c-d62f-43c4-93c8-960ecc992baf")
-		)
-		(pin "1"
-			(uuid "c4b64d63-6f93-4f5b-bf3b-2f69796be951")
-		)
-		(instances
-			(project "precision clock"
-				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "R1")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12957,140 +12748,6 @@
 	)
 	(symbol
 		(lib_id "precision-clock-rescue:R")
-		(at 267.97 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c398920-e04d-4f9b-aac4-88d4acc18dd4")
-		(property "Reference" "R2"
-			(at 267.97 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 267.97 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 267.97 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed0ed2c1-ce7b-4520-918d-ae8d38637e3f")
-		)
-		(pin "1"
-			(uuid "9e8ea5a2-de2b-47bc-bad7-eda2d49ae798")
-		)
-		(instances
-			(project "precision clock"
-				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision-clock-rescue:R")
-		(at 267.97 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50be7f7b-64fd-484b-aed4-3c5b6f130b0b")
-		(property "Reference" "R4"
-			(at 267.97 123.698 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 267.97 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 267.97 127.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a157c279-0afc-4d26-85f5-b13aa6dc35b5")
-		)
-		(pin "1"
-			(uuid "c9b4afc8-699b-43e0-aea0-60019fba025f")
-		)
-		(instances
-			(project "precision clock"
-				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision-clock-rescue:R")
 		(at 257.81 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13219,71 +12876,6 @@
 			(project "precision clock"
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
 					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision-clock-rescue:GND")
-		(at 245.11 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7056a964-729f-4cee-a1bb-a3105a74a420")
-		(property "Reference" "#PWR08"
-			(at 245.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe7a2f86-fefa-4bd9-89ed-ed1a7db06b4c")
-		)
-		(instances
-			(project "precision clock"
-				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13431,17 +13023,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 245.11 133.35 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 172.72 217.17 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "822f9a35-0f64-42db-a2ff-6e389ee3dfdf")
-		(property "Reference" "JP3"
-			(at 242.57 132.0799 90)
+		(uuid "7c8e51d9-4ed3-478b-b9d2-bc30df4c92a7")
+		(property "Reference" "H3"
+			(at 175.26 215.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13449,8 +13041,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MS src"
-			(at 242.57 134.6199 90)
+		(property "Value" "MountingHole"
+			(at 175.26 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13458,8 +13050,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 245.11 133.35 0)
+		(property "Footprint" "MountingHole:MountingHole_2mm"
+			(at 172.72 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,7 +13060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 133.35 0)
+			(at 172.72 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13476,28 +13068,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 3-pole, both open"
-			(at 245.11 133.35 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 172.72 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "de1d2f82-1272-46b3-98f1-9a26ba1df182")
-		)
-		(pin "2"
-			(uuid "22b29acd-655d-46e4-bc35-522f6cd96a48")
-		)
-		(pin "3"
-			(uuid "4618b15b-0861-4fd9-9410-b8d73205fd28")
 		)
 		(instances
 			(project "precision clock"
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "JP3")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -13770,7 +13353,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 232.41 177.8 0)
+		(at 233.68 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13779,7 +13362,7 @@
 		(fields_autoplaced yes)
 		(uuid "c36d4d58-6457-4f34-adac-20c4a14410ce")
 		(property "Reference" "#PWR01"
-			(at 232.41 181.61 0)
+			(at 233.68 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13788,7 +13371,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 232.41 172.72 0)
+			(at 233.68 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13796,7 +13379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 177.8 0)
+			(at 233.68 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13805,7 +13388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 177.8 0)
+			(at 233.68 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13814,7 +13397,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 232.41 177.8 0)
+			(at 233.68 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13829,6 +13412,107 @@
 			(project "precision clock"
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Plug_USB2.0")
+		(at 250.19 193.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d258ad6e-9d5e-4067-ade1-0b36d947846a")
+		(property "Reference" "P2"
+			(at 250.19 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Plug_USB2.0"
+			(at 250.19 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-17"
+			(at 246.38 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 246.38 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only Type-C Plug connector"
+			(at 250.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B4"
+			(uuid "061e15f4-3fab-43cc-b62f-09ec3560deef")
+		)
+		(pin "A5"
+			(uuid "14670dcd-ab7f-4ef2-aded-c7bd51eb65dc")
+		)
+		(pin "B1"
+			(uuid "cefd5088-985e-4152-8f4e-5f85c0282cb8")
+		)
+		(pin "B12"
+			(uuid "440d0405-4f0e-4724-a8ba-99d9e70bf7f6")
+		)
+		(pin "A12"
+			(uuid "41e452db-a143-4fd2-9571-5f280c83638d")
+		)
+		(pin "A7"
+			(uuid "4104013c-e5cf-488e-bc76-6458882f35d4")
+		)
+		(pin "A6"
+			(uuid "b08fee45-a29e-45a1-885c-0eec86e29b3b")
+		)
+		(pin "A4"
+			(uuid "b225bb22-d0c0-4dca-8a87-d5536682c45f")
+		)
+		(pin "B5"
+			(uuid "0567e218-9beb-4211-b455-98cb9f4bbb64")
+		)
+		(pin "S1"
+			(uuid "ffed87b0-533e-4c33-97e4-644658a94b37")
+		)
+		(pin "A9"
+			(uuid "dcea8a49-0167-4b27-8eea-38c56c9ebc07")
+		)
+		(pin "A1"
+			(uuid "0c314ee5-6b14-4345-a2dd-5f220c8e591b")
+		)
+		(pin "B9"
+			(uuid "b5402e4c-ea8d-4038-a6c2-478c361ef45c")
+		)
+		(instances
+			(project "precision clock"
+				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
+					(reference "P2")
 					(unit 1)
 				)
 			)
@@ -14062,7 +13746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-17"
 			(at 220.98 193.04 0)
 			(effects
 				(font
@@ -14132,71 +13816,6 @@
 			(project ""
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
 					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision-clock-rescue:GND")
-		(at 245.11 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "edd9e5ce-617d-4244-9175-51745855cd77")
-		(property "Reference" "#PWR010"
-			(at 245.11 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d87d5380-254b-4f4b-b536-dfce1f568480")
-		)
-		(instances
-			(project "precision clock"
-				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14273,79 +13892,6 @@
 			(project "precision clock"
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 245.11 105.41 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff6b3ea7-a2a9-451e-a31b-4d23da60bd11")
-		(property "Reference" "JP1"
-			(at 242.57 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HM src"
-			(at 242.57 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 3-pole, both open"
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9673df48-53fc-4c5f-9c87-d75d925bd626")
-		)
-		(pin "2"
-			(uuid "8f54b9b5-f44a-4b77-9d48-84f2df69ffec")
-		)
-		(pin "3"
-			(uuid "56c6fbb3-4c80-43b5-ad71-aa84c42d66c7")
-		)
-		(instances
-			(project "precision clock"
-				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
