@@ -4025,6 +4025,12 @@
 		(uuid "3070f3eb-c8d0-4276-9e0a-705161552be6")
 	)
 	(junction
+		(at 127 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "311c740c-7adc-43b9-86c9-e9540bdae99a")
+	)
+	(junction
 		(at 22.86 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4065,6 +4071,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "611fa7e5-fa67-487f-8e59-412c1bcf2bf0")
+	)
+	(junction
+		(at 127 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63520faa-62aa-421e-9a8d-1fb156728f9b")
 	)
 	(junction
 		(at 50.8 133.35)
@@ -4313,10 +4325,6 @@
 	(no_connect
 		(at 63.5 69.85)
 		(uuid "a52d6ac2-1abf-4765-bb89-5a3cd3437c5d")
-	)
-	(no_connect
-		(at 201.93 69.85)
-		(uuid "aa187e11-ae5d-4bb0-9a1d-bb7d012affc9")
 	)
 	(no_connect
 		(at 121.92 179.07)
@@ -4881,6 +4889,16 @@
 			(type default)
 		)
 		(uuid "275c3510-e433-4aad-b0f4-31554b9c6bf3")
+	)
+	(wire
+		(pts
+			(xy 127 160.02) (xy 130.81 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277d1d87-8606-4193-929e-96112a78a5d8")
 	)
 	(wire
 		(pts
@@ -5514,6 +5532,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 69.85) (xy 194.31 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af33b05-bda5-4571-80f4-bfe672162626")
+	)
+	(wire
+		(pts
 			(xy 129.54 149.86) (xy 134.62 149.86)
 		)
 		(stroke
@@ -5691,6 +5719,16 @@
 			(type default)
 		)
 		(uuid "6d61a8be-1c74-434f-b56b-8ca928d9666e")
+	)
+	(wire
+		(pts
+			(xy 130.81 170.18) (xy 127 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f17a136-325a-42e7-827e-bda47b8bddd4")
 	)
 	(wire
 		(pts
@@ -6311,6 +6349,16 @@
 			(type default)
 		)
 		(uuid "a7d77639-035e-463d-b1ac-78cdd77fe835")
+	)
+	(wire
+		(pts
+			(xy 130.81 168.91) (xy 130.81 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98f2e16-b230-48ea-9c0b-8569c2655ee0")
 	)
 	(wire
 		(pts
@@ -6954,6 +7002,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 161.29) (xy 130.81 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4fc191-4e02-4ccf-85d1-009b9cef327d")
+	)
+	(wire
+		(pts
 			(xy 137.16 86.36) (xy 144.78 86.36)
 		)
 		(stroke
@@ -7470,6 +7528,17 @@
 			(justify left bottom)
 		)
 		(uuid "2c6a2178-0835-4ece-ae91-e71eeca1d97e")
+	)
+	(label "timeDP"
+		(at 194.31 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d3cf64a-c300-4cbc-a168-2fde796f1897")
 	)
 	(label "dateB"
 		(at 24.13 113.03 0)
@@ -12478,6 +12547,73 @@
 			(project ""
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
 					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "precision-clock-rescue:R")
+		(at 130.81 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "177a3440-2910-4f7f-899f-6787fec85d64")
+		(property "Reference" "R_Min_Bright2"
+			(at 132.842 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10M"
+			(at 130.81 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 129.032 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c00726af-6a89-47bc-b202-e30585999600")
+		)
+		(pin "1"
+			(uuid "24360c55-d7d7-4b8f-aac2-48929e4f3541")
+		)
+		(instances
+			(project "precision clock"
+				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
+					(reference "R_Min_Bright2")
 					(unit 1)
 				)
 			)
