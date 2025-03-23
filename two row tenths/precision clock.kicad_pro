@@ -54,7 +54,7 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "footprint_type_mismatch|118015000|111415000|4ea328ab-825e-42be-9afa-e2adf0c9680f|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|118745000|111125000|4ea328ab-825e-42be-9afa-e2adf0c9680f|00000000-0000-0000-0000-000000000000",
         "footprint_type_mismatch|178435000|100330000|7fa5c223-f1e3-4d99-8314-65adf91e91f2|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
