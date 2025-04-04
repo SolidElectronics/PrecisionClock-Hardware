@@ -4040,12 +4040,6 @@
 		(uuid "3070f3eb-c8d0-4276-9e0a-705161552be6")
 	)
 	(junction
-		(at 127 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "311c740c-7adc-43b9-86c9-e9540bdae99a")
-	)
-	(junction
 		(at 83.82 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4094,12 +4088,6 @@
 		(uuid "611fa7e5-fa67-487f-8e59-412c1bcf2bf0")
 	)
 	(junction
-		(at 127 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63520faa-62aa-421e-9a8d-1fb156728f9b")
-	)
-	(junction
 		(at 50.8 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4110,6 +4098,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78315cd5-331c-423d-a578-18dc0b765c3b")
+	)
+	(junction
+		(at 125.73 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "785f4b5a-9cc6-4b49-99b9-9382637f73b8")
 	)
 	(junction
 		(at 124.46 125.73)
@@ -4328,10 +4322,6 @@
 	(no_connect
 		(at 63.5 69.85)
 		(uuid "a52d6ac2-1abf-4765-bb89-5a3cd3437c5d")
-	)
-	(no_connect
-		(at 121.92 179.07)
-		(uuid "aba2eece-8850-476b-9520-096fb550c625")
 	)
 	(no_connect
 		(at 31.75 99.06)
@@ -4585,6 +4575,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 185.42) (xy 121.92 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b840073-1fee-4776-afb5-5e74880ffec9")
+	)
+	(wire
+		(pts
 			(xy 209.55 240.03) (xy 196.85 240.03)
 		)
 		(stroke
@@ -4592,6 +4592,16 @@
 			(type default)
 		)
 		(uuid "0bd88d34-b637-4d25-b8b6-81d756259f71")
+	)
+	(wire
+		(pts
+			(xy 135.89 175.26) (xy 135.89 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bedd501-567a-450f-ad2e-634d1c0ba281")
 	)
 	(wire
 		(pts
@@ -4932,16 +4942,6 @@
 			(type default)
 		)
 		(uuid "275c3510-e433-4aad-b0f4-31554b9c6bf3")
-	)
-	(wire
-		(pts
-			(xy 127 160.02) (xy 130.81 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "277d1d87-8606-4193-929e-96112a78a5d8")
 	)
 	(wire
 		(pts
@@ -5595,7 +5595,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 170.18) (xy 121.92 170.18)
+			(xy 121.92 170.18) (xy 128.27 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5735,7 +5735,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 160.02) (xy 121.92 160.02)
+			(xy 121.92 160.02) (xy 128.27 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5895,13 +5895,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 170.18) (xy 127 170.18)
+			(xy 135.89 175.26) (xy 134.62 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f17a136-325a-42e7-827e-bda47b8bddd4")
+		(uuid "6d888856-7ab2-4d2f-954e-744e987e848e")
 	)
 	(wire
 		(pts
@@ -6035,16 +6035,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 175.26) (xy 135.89 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d5619fa-b4c4-40ab-8e1a-bc9be98d524b")
-	)
-	(wire
-		(pts
 			(xy 147.32 154.94) (xy 147.32 158.75)
 		)
 		(stroke
@@ -6095,16 +6085,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 161.29) (xy 127 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84ff9d59-08b2-4a56-9fd7-5aefc347980a")
-	)
-	(wire
-		(pts
 			(xy 189.23 15.24) (xy 189.23 38.1)
 		)
 		(stroke
@@ -6122,6 +6102,16 @@
 			(type default)
 		)
 		(uuid "85b1f76a-a42d-420c-921a-3a82ed08c0be")
+	)
+	(wire
+		(pts
+			(xy 125.73 175.26) (xy 125.73 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860c9d6c-fcc4-4b0f-a7fa-0f2bd3325879")
 	)
 	(wire
 		(pts
@@ -6425,6 +6415,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 175.26) (xy 127 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e49d66d-036f-4654-91d9-0d80cadb6de1")
+	)
+	(wire
+		(pts
 			(xy 236.22 113.03) (xy 248.92 113.03)
 		)
 		(stroke
@@ -6452,16 +6452,6 @@
 			(type default)
 		)
 		(uuid "9f30e12e-ee5e-4b07-b884-a283a4403076")
-	)
-	(wire
-		(pts
-			(xy 127 168.91) (xy 127 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f50f448-460b-4acc-a7fa-d6745fe8353b")
 	)
 	(wire
 		(pts
@@ -6555,7 +6545,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 168.91) (xy 130.81 170.18)
+			(xy 128.27 168.91) (xy 128.27 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6902,6 +6892,16 @@
 			(type default)
 		)
 		(uuid "c63be3f4-feef-4ecb-a626-e6ca3e1cbfd1")
+	)
+	(wire
+		(pts
+			(xy 125.73 179.07) (xy 121.92 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e0d485-98d5-4523-b55b-7508d308585d")
 	)
 	(wire
 		(pts
@@ -7285,7 +7285,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 161.29) (xy 130.81 160.02)
+			(xy 128.27 161.29) (xy 128.27 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7582,7 +7582,7 @@
 		(uuid "0829d7c3-378a-4bff-b3b7-9858696277c3")
 	)
 	(label "ISET_DATE"
-		(at 127 175.26 0)
+		(at 121.92 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11976,73 +11976,6 @@
 		)
 	)
 	(symbol
-		(lib_id "precision-clock-rescue:R")
-		(at 127 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b62b115")
-		(property "Reference" "R_Min_Bright1"
-			(at 129.032 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100K"
-			(at 127 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 125.222 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08c2eb2d-3747-402b-96a7-b1cfe309aded")
-		)
-		(pin "1"
-			(uuid "8b8fab4b-91fb-4d1a-a098-c1e983470b84")
-		)
-		(instances
-			(project ""
-				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "R_Min_Bright1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "precision-clock-rescue:NEO6MV2")
 		(at 231.14 213.36 0)
 		(mirror x)
@@ -12860,7 +12793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0acf93e4-292b-4816-8abf-44f812a4d4b0")
-		(property "Reference" "R_Time_brt_adj1"
+		(property "Reference" "R_RelBrt1"
 			(at 145.415 181.61 90)
 			(effects
 				(font
@@ -12915,7 +12848,7 @@
 		(instances
 			(project "precision clock"
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "R_Time_brt_adj1")
+					(reference "R_RelBrt1")
 					(unit 1)
 				)
 			)
@@ -13057,23 +12990,23 @@
 	)
 	(symbol
 		(lib_id "precision-clock-rescue:R")
-		(at 130.81 165.1 0)
+		(at 128.27 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "177a3440-2910-4f7f-899f-6787fec85d64")
-		(property "Reference" "R_Min_Bright2"
-			(at 132.842 165.1 90)
+		(property "Reference" "R_MinBrt1"
+			(at 130.302 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100K"
-			(at 130.81 165.1 90)
+		(property "Value" "220K"
+			(at 128.27 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13081,7 +13014,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 129.032 165.1 90)
+			(at 126.492 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13090,7 +13023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13099,7 +13032,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13116,7 +13049,7 @@
 		(instances
 			(project "precision clock"
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "R_Min_Bright2")
+					(reference "R_MinBrt1")
 					(unit 1)
 				)
 			)
@@ -13344,6 +13277,74 @@
 			(project "precision clock"
 				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 175.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28170bde-ee25-4e4d-acd6-a89ca7c0a9e0")
+		(property "Reference" "R_MaxBrt1"
+			(at 130.81 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 130.81 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 130.81 177.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcacac9f-5084-4d2e-9784-f05f6a9a83e2")
+		)
+		(pin "2"
+			(uuid "6b230e56-5d0e-41d7-89b9-956194c4dd62")
+		)
+		(instances
+			(project "precision clock"
+				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
+					(reference "R_MaxBrt1")
 					(unit 1)
 				)
 			)
@@ -14646,7 +14647,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4k7"
 			(at 143.51 173.9899 0)
 			(effects
 				(font

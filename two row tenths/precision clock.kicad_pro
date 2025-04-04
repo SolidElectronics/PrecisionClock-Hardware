@@ -225,7 +225,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "unannotated|1308100|1752600|28170bde-ee25-4e4d-acd6-a89ca7c0a9e0|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
