@@ -4585,6 +4585,12 @@
 		(uuid "9a276ac9-a5d4-4218-bd7f-758dc1e70e7d")
 	)
 	(junction
+		(at 273.05 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a145e397-39d1-40d1-9b3a-25a67b7a983c")
+	)
+	(junction
 		(at 128.27 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4607,12 +4613,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df2372de-f8a5-4bbd-90ea-4ba401fcee9b")
-	)
-	(junction
-		(at 273.05 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3b86d8e-a2d9-4e5b-a59d-6e9d44451819")
 	)
 	(junction
 		(at 187.96 182.88)
@@ -7484,16 +7484,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 142.24) (xy 273.05 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3cf76a0-a10e-49e2-8eed-4b780e26be39")
-	)
-	(wire
-		(pts
 			(xy 137.16 91.44) (xy 144.78 91.44)
 		)
 		(stroke
@@ -7961,6 +7951,16 @@
 			(type default)
 		)
 		(uuid "f008b03e-303f-49f0-aae9-e277816b32c9")
+	)
+	(wire
+		(pts
+			(xy 273.05 160.02) (xy 273.05 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f102ab86-158d-4b31-bdcd-bbd3134d1653")
 	)
 	(wire
 		(pts
@@ -12102,7 +12102,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 285.75 152.4 180)
+		(at 285.75 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12110,7 +12110,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b604932")
 		(property "Reference" "DColonHM2"
-			(at 285.75 154.94 0)
+			(at 285.75 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12118,7 +12118,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 285.75 149.86 0)
+			(at 285.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12169,7 +12169,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 285.75 162.56 180)
+		(at 285.75 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12177,7 +12177,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b604938")
 		(property "Reference" "DColonMS1"
-			(at 285.75 165.1 0)
+			(at 285.75 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12185,7 +12185,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 285.75 160.02 0)
+			(at 285.75 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12236,7 +12236,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 285.75 172.72 180)
+		(at 285.75 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12244,7 +12244,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b609827")
 		(property "Reference" "DColonMS2"
-			(at 285.75 175.514 0)
+			(at 285.75 169.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12252,7 +12252,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 285.75 170.18 0)
+			(at 285.75 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12303,7 +12303,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 285.75 142.24 180)
+		(at 285.75 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12311,7 +12311,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b609a77")
 		(property "Reference" "DColonHM1"
-			(at 285.75 144.78 0)
+			(at 285.75 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12319,7 +12319,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 285.75 139.7 0)
+			(at 285.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14642,7 +14642,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 295.91 139.954 90)
 			(effects
 				(font
@@ -15298,6 +15298,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 273.05 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51a9ccf1-82f5-4ad9-b913-4041550a3530")
+		(property "Reference" "#PWR041"
+			(at 273.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6026212d-ed98-4b17-b13c-a2d4c33d4c30")
+		)
+		(instances
+			(project "precision clock"
+				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 255.27 142.24 180)
 		(unit 1)
@@ -15861,7 +15926,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 295.91 160.274 90)
 			(effects
 				(font
@@ -16512,71 +16577,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 273.05 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ee2b5da-5a9f-469e-bfaa-5a8da452edc2")
-		(property "Reference" "#PWR08"
-			(at 273.05 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 273.05 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 273.05 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "979b8fd9-2607-4495-b2c9-2cc986e3e471")
-		)
-		(instances
-			(project "precision clock"
-				(path "/a352d3ae-caca-4fe6-94e2-4912021cb238"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 170.18 160.02 0)
 		(unit 1)
@@ -17213,7 +17213,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 295.91 150.114 90)
 			(effects
 				(font
@@ -18348,7 +18348,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 295.91 170.434 90)
 			(effects
 				(font
