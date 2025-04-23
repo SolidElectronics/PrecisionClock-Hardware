@@ -627,7 +627,7 @@
 	)
 	(model "${KIPRJMOD}/3d_models/ublox NEO-6M.STEP"
 		(offset
-			(xyz -7.5 -12 3)
+			(xyz -9.5 -12 3)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -638,18 +638,18 @@
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Horizontal.step"
 		(offset
-			(xyz 10.5 -5 8.5)
+			(xyz 6 -5 3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 -90 180)
+			(xyz -180 0 0)
 		)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Horizontal.step"
 		(offset
-			(xyz 20.5 5 7)
+			(xyz 20.5 5 0.5)
 		)
 		(scale
 			(xyz 1 1 1)

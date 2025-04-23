@@ -1,4 +1,0 @@
-*.kicad_pcb linguist-detectable=true
-*.sch linguist-detectable=true
-*.scad linguist-detectable=true
-convertSTL.rb linguist-detectable=false
